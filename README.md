@@ -1,2 +1,2 @@
 live link: 
-https://scooby-forum.netlify.app/
+https://scooby-api-juwelr.netlify.app/
