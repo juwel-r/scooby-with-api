@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="p-6 lg:p-12 flex gap-6 lg:flex-row flex-col items-center lg:items-start bg-[#F3F3F5] rounded-3xl"
+    >
+      <div class="indicator">
+        <span class="indicator-item badge bg-green-600"></span>
+        <div class="avatar">
+          <div class="w-24 rounded-xl">
+            <img
+              src="https://i.ibb.co/0QRxkd5/pexels-jan-kop-iva-3525908.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="space-y-4 w-full">
+        <div class="flex gap-4 *:opacity-60">
+          <p># Comedy</p>
+          <p>Author: John Doe</p>
+        </div>
+        <h3 class="text-2xl font-bold opacity-70">
+          10 Kids Unaware of Their Costume
+        </h3>
+        <p class="opacity-40">
+          It is one thing to subject yourself to a costume mishap
+        </p>
+        <hr class="border border-dashed border-gray-300" />
+        <div
+          class="flex justify-between *:font-bold [&amp;>*:not(:last-child)]:opacity-45"
+        >
+          <div class="flex gap-4">
+            <div class="space-x-2 flex items-center">
+              <i class="fa-regular fa-comment-dots" aria-hidden="true"></i>
+              <p>560</p>
+            </div>
+            <div class="space-x-2 flex items-center">
+              <i class="fa-regular fa-eye" aria-hidden="true"></i>
+              <p>1568</p>
+            </div>
+            <div class="space-x-2 flex items-center">
+              <i class="fa-regular fa-clock" aria-hidden="true"></i>
+              <p>5 Min</p>
+            </div>
+          </div>
+          <div class="opacity-100">
+            <button
+              id="addToList"
+              onclick="markAsRead()"
+              class="addToList btn btn-circle bg-green-500 btn-sm"
+            >
+              <i
+                class="fa-solid fa-envelope-open text-white"
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>It is one thing to subject yourself to a costume mishap</p>
+    <p class="text-nowrap space-x-1">
+      <i class="fa-regular fa-eye" aria-hidden="true"></i><span>999</span>
+    </p>
+
+    
+  </body>
+</html>
